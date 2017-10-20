@@ -1,0 +1,38 @@
+body {
+  padding: 20px;
+}
+
+sub {
+  display: block;
+}
+
+.jumbotron {
+  padding-top: 20px !important;
+}
+
+.tab-pane {
+  padding-top: 10px;
+}
+
+.fhir-list {
+  list-style: none;
+}
+
+.fhir-list li {
+  margin-left: -40px;
+}
+
+.fhir-list .subject-type-remove {
+  padding: 8px;
+  margin-top: 3px;
+}
+
+.input-group-addon {
+  white-space: pre !important;
+}
+
+input[type=date],
+input[type=datetime-local],
+input[type=time] {
+  height: 38px;
+}
